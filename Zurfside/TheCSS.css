@@ -1,0 +1,34 @@
+body{
+    background:url(AlternativeBackground.jpg); /* ændre til variabel der kan ændres fra admin page */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    }
+
+#container{
+    width: 1920px; 
+    margin: 0 auto;
+}
+
+#logo{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media screen and (max-width:1919px){
+    #container{
+        width:100%;
+    }
+
+    #registrationButton{
+        width:100%;
+        height:100%;
+    }
+
+
+    img{
+        width: 30%;
+        height: 30%;
+    }
+}
