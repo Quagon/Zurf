@@ -6,31 +6,72 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
+
 #registrationButton{
-    float: left;
-    width: 560px;
-    height: 60px;
-    border: 5px solid #D46600;
-    padding: 20px;
-    margin: 410px;
-    margin-top: 200px;
+    width: 660px;
+    height: 100px;
+    border: 10px solid red;
+    padding: 55px;
+    margin-left: auto;
+    margin-top: -20%;
+    margin-right: 8%;
     color: white;
     text-align: center;
-    font-size: 50;
     background: orange; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#FF9531, #FF7C00); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#FF9531, #FF7C00); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#FF9531, #FF7C00); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#FF9531, #FF7C00); /* Standard syntax */
 }
+
+#registrationButton:hover{
+    color: yellow;
+    text-decoration: none;
+}
+
 </style>
 </head>
 
 <body>
-<div id="container">        
-    <div id="logo"> <img src="17554757_10212418612040316_57139142_n.png" alt="logo" width="auto" height="auto"></img> </div>
-    <a href="tilmeldTurnering.html"><div id="registrationButton"> 
-        <font size="43", face="Verdana">TILMELD TURNERING</font> </div> </a>
+<div id="container">
+    <a href="landingpage.html">        
+        <div id="logo"> 
+            <img src="17554757_10212418612040316_57139142_n.png" alt="logo" width="400px" height="400px"></img> 
+        </div>
+    </a>
+
+    <div id="sideMenu">
+        <a href="praemier.html">
+            <div id="praemier">
+                Præmier
+            </div>
+        </a>
+        <a href="regler.html">
+            <div id="regler">
+                Regler
+            </div>
+        </a>
+        <a href="kalender.html">
+            <div id="kalender">
+                Kalender
+            </div>
+        </a>
+        <a href="vindere.html">
+            <div id="vindere">
+                Vindere
+            </div>
+        </a>
+            <a href="turneringer.html">
+            <div id="turneringer">
+                Turneringer
+            </div>
+        </a>
+    </div>
+    <a href="tilmeldTurnering.html">
+        <div id="registrationButton"> 
+            <font size="20", face="Verdana">TILMELD TURNERING</font> 
+        </div> 
+    </a>
 </div>
 </body>
 </html>

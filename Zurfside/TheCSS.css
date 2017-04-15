@@ -1,8 +1,9 @@
 body{
     background:url(AlternativeBackground.jpg); /* ændre til variabel der kan ændres fra admin page */
-    background-size: 100%;
+    width: 1920px;
+    height: 1080px;
     background-repeat: no-repeat;
-    }
+}
 
 #container{
     width: 1920px; 
@@ -10,12 +11,101 @@ body{
 }
 
 #logo{
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 400px;
+    height: 400px;
+    display:inline-block;
+}
+
+#sideMenu{
+    width: 350px;
+    height: 800px;
 }
 
 
+#praemier{
+    width: 270px;
+    height: 70px;
+    padding: 40px;
+    border: 5px #D46600;
+    border-style: solid;
+    background: orange; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#FF9531, #FF7C00); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FF9531, #FF7C00); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FF9531, #FF7C00); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FF9531, #FF7C00); /* Standard syntax */
+    font-family: Verdana;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+
+#regler{
+    width: 270px;
+    height: 70px;
+    padding: 40px;
+    border: 5px #D46600;
+    border-style: solid;
+    background: orange; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#FF9531, #FF7C00); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FF9531, #FF7C00); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FF9531, #FF7C00); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FF9531, #FF7C00); /* Standard syntax */
+    font-family: Verdana;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+
+#kalender{
+    width: 270px;
+    height: 70px;
+    padding: 40px;
+    border: 5px #D46600;
+    border-style: solid;
+    background: orange; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#FF9531, #FF7C00); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FF9531, #FF7C00); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FF9531, #FF7C00); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FF9531, #FF7C00); /* Standard syntax */
+    font-family: Verdana;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+#vindere{
+    width: 270px;
+    height: 70px;
+    padding: 40px;
+    border: 5px #D46600;
+    border-style: solid;
+    background: orange; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#FF9531, #FF7C00); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FF9531, #FF7C00); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FF9531, #FF7C00); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FF9531, #FF7C00); /* Standard syntax */
+    font-family: Verdana;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+#turneringer{
+    width: 270px;
+    height: 70px;
+    padding: 40px;
+    border: 5px #D46600;
+    border-style: solid;
+    background: orange; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#FF9531, #FF7C00); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FF9531, #FF7C00); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FF9531, #FF7C00); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FF9531, #FF7C00); /* Standard syntax */
+    font-family: Verdana;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+
+/*
 @media screen and (max-width:1919px){
     #container{
         width:100%;
@@ -32,3 +122,4 @@ body{
         height: 30%;
     }
 }
+*/
