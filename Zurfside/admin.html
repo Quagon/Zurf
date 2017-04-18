@@ -5,49 +5,51 @@
 <title>Zurf Beerpong</title>
 <link rel="stylesheet" href="TheCSS.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 <style>
 #backBox{
-    width: 1000px;
-    height: 800px;
+    width: 1050px;
+    height: 1200px;
     background-color: #ffffff;
     border: 3px solid black;
     opacity: 0.8;
     margin-left: auto;
-    margin-top: -40%;
-    padding: 40px;
+    margin-top: -60%;
 }
 
-#text{
-    font-size: 80px;
+#turnering{
+    width: 344px;
+    height: 70px;
+    display:inline-block;
+    border: 2px solid black;
+    font-size: 45px;
     text-align: center;
+    padding-top: 20px;
 }
 
-#theForm{
-    font-size: 60px;
+#settings{
+    width: 345px;
+    height: 70px;
+    display:inline-block;
+    border: 2px solid black;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 20px;
 }
 
-#theForm input{
-    height:50px;
-    font-size:45px;
+#andet{
+    width: 344px;
+    height: 70px;
+    display:inline-block;
+    border: 2px solid black;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 20px;
 }
-
-#theForm input[type=checkbox]{
-    transform: scale(4);
-    padding: 40px;
-}
-
-#theForm input[type=submit]{
-    float: right;
-    margin-top: -84px;
-    height:100px;
-}
-
-
 
 </style>
-</head>
-<body>
 
+<body>
 <div id="container">
     <a href="landingpage.html">        
         <div id="logo"> 
@@ -83,22 +85,25 @@
         </a>
     </div>
     <div id="backBox">
-        <div id="text">
-            Tilmeld Turnering <br>
-        </div>
-        <div id="theForm">   
-            <form action="TurneringTilmeldt.html" method="post">
-            <br><br><br>Holdnavn: <br>
-            <input type="text" name="holdnavn" value="" required><br><br>
-            Tlf nr. <br>
-            <input type="text" name="tlf" value="+45" required><br><br>
-            <input type="checkbox" name="over18" value="over18" id="over18" required>
-            Bekræft at du er over 18<br>
-            <input type="submit" value="Tilmeld">
-        </form>
+        <div id="links">
+            <a href="turnering_admin.html">
+                <div id="turnering">
+                    Turnering
+                </div>
+            </a>
+            <a href="settings_admin.html">
+                <div id="settings">
+                    Settings
+                </div>
+            </a>
+            <a href="andet_admin.html">
+                <div id="andet">
+                    Andet
+                </div>
+            </a>
+            <hr>
         </div>
     </div>
 </div>
-
 </body>
 </html>
