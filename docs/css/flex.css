@@ -1,14 +1,19 @@
 .flex-container {
-			display: -webkit-flex;
-			display: flex;
-		}
+	display: -webkit-flex;
+	display: flex;
+}
 		
-		.nav {
-			width: 200;
-		}
+.nav {
+	width: 200;
+}
 		
-		.flex-column {
-			-webkit-flex: 1;
-			flex: 1;
-			max-width: 50%;
-		}
+.flex-column {
+	-webkit-flex: 1;
+	flex: 1;
+	max-width: 50%;
+}
+
+.logo { /*fjern efter inklution af responsivt design */
+	width: 150px;
+	height: 150px;
+}
