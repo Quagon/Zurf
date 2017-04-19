@@ -13,9 +13,9 @@ body{
 
 .NavMenu{
 	width: 200px;
-	height: 25px;
+	height: 100%;
 	padding: 40px;    
-	border: 5px #D46600;   
+	border: 1px #D46600;   
 	border-style: solid; 
 	background: orange; /* For browsers that do not support gradients */   
 	background: -webkit-linear-gradient(#FF9531, #FF7C00); /* For Safari 5.1 to 6.0 */
