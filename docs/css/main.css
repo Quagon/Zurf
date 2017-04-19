@@ -12,20 +12,24 @@ body{
 
 
 .NavMenu{
-    width: 200px;
-    height: 25px;
-    padding: 40px;
-    border: 5px #D46600;
-    border-style: solid;
-    background: orange; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#FF9531, #FF7C00); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#FF9531, #FF7C00); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#FF9531, #FF7C00); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#FF9531, #FF7C00); /* Standard syntax */
-    font-family: Verdana;
-    color: white;
-    font-size: 23px;
-    text-align: center;
+	width: 200px;
+	height: 25px;
+	padding: 40px;    
+	border: 5px #D46600;   
+	border-style: solid; 
+	background: orange; /* For browsers that do not support gradients */   
+	background: -webkit-linear-gradient(#FF9531, #FF7C00); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#FF9531, #FF7C00); /* For Opera 11.1 to 12.0 */ 
+	background: -moz-linear-gradient(#FF9531, #FF7C00); /* For Firefox 3.6 to 15 */ 
+	background: linear-gradient(#FF9531, #FF7C00); /* Standard syntax */
+	font-family: Verdana;    
+	color: white;
+	font-size: 23px;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
 }
 
 .flex-container {
