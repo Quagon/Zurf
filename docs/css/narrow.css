@@ -3,3 +3,56 @@ body{
     width: 320px;
     background-repeat: repeat;
 }
+
+.NavMenu{
+    width: 100%;
+    height: 70px;
+    padding: 40px;
+    border: 5px #D46600;
+    border-style: solid;
+    background: orange; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#FF9531, #FF7C00); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FF9531, #FF7C00); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FF9531, #FF7C00); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FF9531, #FF7C00); /* Standard syntax */
+    font-family: Verdana;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+
+.flex-container {
+	display: -webkit-flex;
+	display: flex;
+}
+		
+.nav {
+	width: 100%;
+}
+		
+.flex-column {
+	-webkit-flex: 1;
+	flex: 1;
+	max-width: 50%;
+}
+
+img.logo { /*fjern efter inklution af responsivt design */
+	width: 50px;
+	height: 50px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
