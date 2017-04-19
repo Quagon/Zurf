@@ -39,18 +39,29 @@ li {
 }
 
 .flex-container {
+/*Defines from where the code is flex*/
 	display: -webkit-flex;
 	display: flex;
 }
 		
 .flex-column {
+/*adds the flex element to column*/
 	-webkit-flex: 1;
 	flex: 1;
 	max-width: 50%;
 	margin-left: 10px;
 }
 
-img.logo { /*fjern efter inklution af responsivt design */
+a {
+/* This flexbox code stretches the link's clickable area to fit its parent block. */
+  display:        flex;
+  flex-grow:      1;
+  flex-shrink:    1;
+  justify-content: center;
+}
+
+img.logo { 
+/* remove once website is flex*/
 	width: 150px;
 	height: 150px;
 }
