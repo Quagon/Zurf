@@ -12,8 +12,8 @@ body{
 
 
 .NavMenu{
-    width: 270px;
-    height: 70px;
+    width: 200px;
+    height: 25px;
     padding: 40px;
     border: 5px #D46600;
     border-style: solid;
@@ -24,7 +24,7 @@ body{
     background: linear-gradient(#FF9531, #FF7C00); /* Standard syntax */
     font-family: Verdana;
     color: white;
-    font-size: 45px;
+    font-size: 23px;
     text-align: center;
 }
 
