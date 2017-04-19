@@ -25,6 +25,9 @@ body{
 	font-size: 23px;
 	text-align: center;
 	margin: 5px;
+}
+
+ul {
 	list-style-type: none;
 }
 
