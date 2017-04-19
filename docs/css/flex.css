@@ -1,3 +1,10 @@
+body{
+    background:url(/assets/img/lightblue.png); /* ændre til variabel der kan ændres fra admin page */
+    width: 100%;
+    height: 100%;
+    background-repeat: repeat;
+}
+
 .flex-container {
 	display: -webkit-flex;
 	display: flex;
@@ -16,4 +23,20 @@
 .logo { /*fjern efter inklution af responsivt design */
 	width: 150px;
 	height: 150px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
 }
