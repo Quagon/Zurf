@@ -5,35 +5,6 @@ body{
     background-repeat: repeat;
 }
  
-a:link {
-    text-decoration: none;
-}
-
-a:visited {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-a:active {
-    text-decoration: none;
-}
-
-#container{
-    width: 100%; 
-    margin: auto;
-}
-
-#logo{
-    width: 400px;
-    height: 400px;
-    display:inline-block;
-    margin-left: 2%;
-    margin-bottom: 8%;
-}
-
 #sideMenu{
     width: 350px;
     height: 800px;
