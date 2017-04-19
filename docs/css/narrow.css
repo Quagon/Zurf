@@ -1,1 +1,28 @@
+body{
+    background:url(/assets/img/lightblue.png); /* ændre til variabel der kan ændres fra admin page */
+    width: 320px;
+    background-repeat: repeat;
+}
 
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+#logo{
+    width: 100%px;
+    display:inline-block;
+    margin-left: 2%;
+    margin-bottom: 8%;
+}
