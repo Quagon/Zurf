@@ -12,6 +12,12 @@ body{
 
 
 ul.ulNavMenu{
+	padding: 0;    
+	margin: 0;
+	list-style-type: none;
+}
+
+li {
 	padding: auto;    
 	border: 1px #D46600;   
 	border-style: solid; 
