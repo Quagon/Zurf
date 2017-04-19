@@ -1,7 +1,7 @@
 body{
-    background:url(AlternativeBackground.jpg); /* ændre til variabel der kan ændres fra admin page */
-    width: 1920px;
-    height: 1080px;
+    background:url(/assets/img/lightblue.png); /* ændre til variabel der kan ændres fra admin page */
+    width: 100%;
+    height: 100%;
     background-repeat: no-repeat;
 }
  
