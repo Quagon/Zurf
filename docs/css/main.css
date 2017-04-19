@@ -47,6 +47,7 @@ li {
 	-webkit-flex: 1;
 	flex: 1;
 	max-width: 50%;
+	margin-left: 10px;
 }
 
 img.logo { /*fjern efter inklution af responsivt design */
