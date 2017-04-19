@@ -11,73 +11,7 @@ body{
 }
 
 
-#praemier{
-    width: 270px;
-    height: 70px;
-    padding: 40px;
-    border: 5px #D46600;
-    border-style: solid;
-    background: orange; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#FF9531, #FF7C00); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#FF9531, #FF7C00); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#FF9531, #FF7C00); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#FF9531, #FF7C00); /* Standard syntax */
-    font-family: Verdana;
-    color: white;
-    font-size: 45px;
-    text-align: center;
-}
-
-#regler{
-    width: 270px;
-    height: 70px;
-    padding: 40px;
-    border: 5px #D46600;
-    border-style: solid;
-    background: orange; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#FF9531, #FF7C00); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#FF9531, #FF7C00); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#FF9531, #FF7C00); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#FF9531, #FF7C00); /* Standard syntax */
-    font-family: Verdana;
-    color: white;
-    font-size: 45px;
-    text-align: center;
-}
-
-#kalender{
-    width: 270px;
-    height: 70px;
-    padding: 40px;
-    border: 5px #D46600;
-    border-style: solid;
-    background: orange; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#FF9531, #FF7C00); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#FF9531, #FF7C00); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#FF9531, #FF7C00); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#FF9531, #FF7C00); /* Standard syntax */
-    font-family: Verdana;
-    color: white;
-    font-size: 45px;
-    text-align: center;
-}
-#vindere{
-    width: 270px;
-    height: 70px;
-    padding: 40px;
-    border: 5px #D46600;
-    border-style: solid;
-    background: orange; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#FF9531, #FF7C00); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#FF9531, #FF7C00); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#FF9531, #FF7C00); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#FF9531, #FF7C00); /* Standard syntax */
-    font-family: Verdana;
-    color: white;
-    font-size: 45px;
-    text-align: center;
-}
-#turneringer{
+.NavMenu{
     width: 270px;
     height: 70px;
     padding: 40px;
