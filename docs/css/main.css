@@ -11,7 +11,7 @@ body{
 }
 
 
-.NavMenu{
+ul.NavMenu{
 	padding: auto;    
 	border: 1px #D46600;   
 	border-style: solid; 
@@ -25,9 +25,6 @@ body{
 	font-size: 23px;
 	text-align: center;
 	margin: 5px;
-}
-
-ul {
 	list-style-type: none;
 }
 
