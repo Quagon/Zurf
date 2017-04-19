@@ -13,8 +13,8 @@ body{
 
 .NavMenu{
 	width: 200px;
-	height: 400px;
-	padding: 20px;    
+	height: 25px;
+	padding: auto;    
 	border: 1px #D46600;   
 	border-style: solid; 
 	background: orange; /* For browsers that do not support gradients */   
@@ -26,7 +26,7 @@ body{
 	color: white;
 	font-size: 23px;
 	text-align: center;
-	margin: 20px;
+	margin: 5px;
 }
 
 ul {
