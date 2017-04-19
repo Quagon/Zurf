@@ -26,10 +26,6 @@ body{
 	display: flex;
 }
 		
-.nav {
-	width: 100%;
-}
-		
 .flex-column {
 	-webkit-flex: 1;
 	flex: 1;
