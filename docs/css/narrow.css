@@ -5,6 +5,7 @@ body{
 
 .nav {
 	width: 300px;
+	margin: auto;
 }
 ul.ulNavMenu{
 	padding: 0;    
@@ -47,8 +48,8 @@ li {
 }
 
 img.logo { /*fjern efter inklution af responsivt design */
-	width: 50px;
-	height: 50px;
+	width: 100px;
+	height: 100px;
 }
 
 a {
