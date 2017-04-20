@@ -5,12 +5,6 @@ body{
     background-repeat: repeat;
 }
  
-#sideMenu{
-    width: 350px;
-    height: 800px;
-}
-
-
 ul.ulNavMenu{
 	padding: 0;    
 	margin: 0;
