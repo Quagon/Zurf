@@ -32,6 +32,7 @@ li {
 	text-align: center;
 	margin: 5px;
 	list-style-type: none;
+	justify-content: center;
 }
 
 .nav {
