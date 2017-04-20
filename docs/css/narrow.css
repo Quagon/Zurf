@@ -9,7 +9,7 @@ ul.ulNavMenu{
 	list-style-type: none;
 }
 .nav {
-	flex-grow: 1;
+	flex: 2;
 }
 li {
 	padding: auto;    
