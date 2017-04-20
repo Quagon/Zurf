@@ -26,7 +26,6 @@ li {
 	text-align: center;
 	margin: 5px;
 	list-style-type: none;
-	justify-content: center;
 }
 
 .nav {
@@ -47,11 +46,12 @@ li {
 	margin-left: 10px;
 }
 
-a {
+a.nav {
 /* This flexbox code stretches the link's clickable area to fit its parent block. */
 	display:        flex;
   	flex-grow:      1;
   	flex-shrink:    1;
+	justify-content: center;
 }
 
 img.logo { 
