@@ -78,14 +78,12 @@ a:visited {
 
 a:hover {
     text-decoration: none;
-    font-style: italic;
     color: white;
 }
 
 a:active {
     text-decoration: none;
     font-weight: bold;
-    font-style: italic;
     color: white;
 }
 
