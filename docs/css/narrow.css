@@ -24,8 +24,7 @@ li {
 	margin: auto;
 	list-style-type: none;
 	-webkit-flex: 1;
-	flex: 1;
-	max-width: 100%
+	flex: auto;
 }
 
 .flex-container {
@@ -41,8 +40,9 @@ li {
 		
 .flex-column {
 	-webkit-flex: 1;
-	flex: 1;
+	flex: auto;
 	max-width: 50%;
+	min-width: 30%
 }
 
 img.logo { /*fjern efter inklution af responsivt design */
