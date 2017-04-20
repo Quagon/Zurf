@@ -11,10 +11,15 @@ body{
 }
 
 
-ul.ulNavMenu{
+ul.ulNavMenu, a{
 	padding: 0;    
 	margin: 0;
-	list-style-type: none;
+  	list-style-type: none;
+  	display:        flex;
+  	flex-grow:      1;
+  	flex-shrink:    1;
+  	justify-content: center;
+	
 }
 
 li {
@@ -54,10 +59,7 @@ li {
 
 a {
 /* This flexbox code stretches the link's clickable area to fit its parent block. */
-  display:        flex;
-  flex-grow:      1;
-  flex-shrink:    1;
-  justify-content: center;
+
 }
 
 img.logo { 
