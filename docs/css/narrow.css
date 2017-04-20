@@ -23,8 +23,7 @@ li {
 	text-align: center;
 	margin: auto;
 	list-style-type: none;
-	-webkit-flex: 1;
-	flex: auto;
+	min-width: 300px;
 }
 
 .flex-container {
