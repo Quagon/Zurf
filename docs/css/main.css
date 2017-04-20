@@ -17,7 +17,7 @@ ul.ulNavMenu{
   	list-style-type: none;
 }
 
-li {
+li, a {
 	padding: auto;    
 	border: 1px #D46600;   
 	border-style: solid; 
