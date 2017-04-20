@@ -81,3 +81,9 @@ a:active {
     font-weight: bold;
     color: white;
 }
+
+section.frontpage {
+	text-indent: 100%;
+ 	white-space: nowrap;
+	overflow: hidden;
+}
