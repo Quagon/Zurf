@@ -46,7 +46,7 @@ li {
 	margin-left: 10px;
 }
 
-a.nav {
+a.navlink {
 /* This flexbox code stretches the link's clickable area to fit its parent block. */
 	display:        flex;
   	flex-grow:      1;
