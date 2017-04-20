@@ -8,9 +8,6 @@ ul.ulNavMenu{
 	margin: 0;
 	list-style-type: none;
 }
-.nav {
-	flex: 2;
-}
 li {
 	padding: auto;    
 	border: 1px #D46600;   
@@ -26,12 +23,19 @@ li {
 	text-align: center;
 	margin: auto;
 	list-style-type: none;
+	-webkit-flex: 1;
+	flex: 1;
+	max-width: 100%
 }
 
 .flex-container {
-	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-wrap: wrap;
+	display: -webkit-box;
+ 	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -moz-flex;
+  	display: -webkit-flex;
+ 	display: flex;
+	display: -webkit-flex-wrap: wrap;
 	flex-wrap: wrap;
 }
 		
