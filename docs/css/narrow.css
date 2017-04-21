@@ -43,7 +43,6 @@ li {
 .flex-column {
 	-webkit-flex: 1;
 	flex: auto;
-	max-width: 50%;
 	min-width: 30%
 }
 
