@@ -4,7 +4,7 @@
 	<link rel="stylesheet" media="screen and (min-width: 401px)" href="/css/main.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<style>
-	li.unique{
+			li.unique{
 		width: 95%;
 		height: 28%;
 		border: solid black 1px;
@@ -40,16 +40,28 @@
 		padding-right: 3%;
 		border-radius: 5%;
 		text-align:left;
-		background:#996300;
+		background:#e59400;
 	}
-	th, td {
+	td {
 		color:orange;
 		font-family:Verdana;
 		font-size: 130%;
 		text-align: left;
 	}
+	th {
+		color:white;
+		font-family: verdana;
+		font-size: 130%;
+		text-align: left;
+	}
 	.classth{
 		padding-bottom:2%;
+	}
+	td.unique{
+		background:#7f5200;
+	}
+	th.unique1, td.unique1{
+		background: #cc8400;
 	}
 	.valg{
 		display: -webkit-flex;
@@ -60,7 +72,7 @@
 		height: 30px;
 		align-self: center;
 	}	
-
+		
 	</style>
 </head>
 <body>
@@ -75,7 +87,7 @@
 				<li><a class="navlink" href="/sites/turneringer">Turneringer</a></li>
 			</ul>
 		</nav>
-				<div class="flex-column">
+		<div class="flex-column">
 		<section>
 			<div class="valg"><h2> Kommende turneringer:</h2>
 				<select class="size">
@@ -91,24 +103,24 @@
 			<div class="thetable">
 			<table style="width:100%">
 				<div class="classth"><tr>
-				<th>Turneringsnavn:</th>
-				<th>Tilmeldte:</th>
-				<th>Dato:</th>
+				<th class="unique1">Turneringsnavn:</th>
+				<th class="unique1">Tilmeldte:</th>
+				<th class="unique1">Dato:</th>
 				</tr></div>
 		<tr>
-			<td>Påske turnering</td>
-			<td>7</td> 
-			<td>04/22-2017</td>
+			<td class="unique">Påske turnering</td>
+			<td class="unique">7</td> 
+			<td class="unique">04/22-2017</td>
 		</tr>
 		<tr>
-			<td>Sommer turnering</td>
-			<td>Ikke muligt</td> 
-			<td>07/28-2017</td>
+			<td class="unique1">Sommer turnering</td>
+			<td class="unique1">Ikke muligt</td> 
+			<td class="unique1">07/28-2017</td>
 		</tr>
 	    <tr>
-			<td>Flere...</td>
-			<td>Ikke muligt</td> 
-			<td>03/18-2018</td>
+			<td class="unique">Flere...</td>
+			<td class="unique">Ikke muligt</td> 
+			<td class="unique">03/18-2018</td>
 	    </tr>
 		</table>
 	</div>
