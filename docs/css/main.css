@@ -45,7 +45,7 @@ li {
 	-webkit-flex: 1;
 	flex: 1;
 	max-width: 50%;
-	margin-left: 20px;
+	align-self: auto;
 }
 
 a.navlink {
