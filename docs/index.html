@@ -3,6 +3,28 @@
 	<link rel="stylesheet" media="screen and (max-width: 400px)" href="css/narrow.css">
 	<link rel="stylesheet" media="screen and (min-width: 401px)" href="css/main.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+#registrationButton{
+    width: 660px;
+    height: 180px;
+    border: 10px solid red;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: 8%;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    background: orange; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#FF9531, #FF7C00); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FF9531, #FF7C00); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FF9531, #FF7C00); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FF9531, #FF7C00); /* Standard syntax */
+}
+
+#registrationButton:hover{
+    color: yellow;
+}
+</style>
 </head>
 
 <body>
@@ -19,18 +41,14 @@
 		</nav>
 		<div class="flex-column">
 			<section class="frontpage">
-				<p><h1>This is the Frontpage</h1></p>
-			</section>
-			<section class="frontpage">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-				Nam at tempor enim. Ut pharetra est in diam pretium, sed accumsan nibh volutpat. 
-				Nullam sagittis justo tellus, molestie lobortis risus consectetur ac. 
-				Nam scelerisque dignissim lectus sed varius. Ut sit amet magna nec justo porttitor interdum. 
-				Nam id justo et nisi fermentum vulputate. Mauris mollis faucibus gravida. 
-				Donec ornare lectus vitae euismod gravida. Nunc sit amet mattis mi. Phasellus eget hendrerit risus. 
-				Donec non orci in sem pulvinar condimentum. Sed a efficitur quam, ac imperdiet nisi.</p>
+				    <a href="tilmeldTurnering.html">
+					<div id="registrationButton"> 
+					    TILMELD TURNERING
+					</div> 
+				    </a>
+
 			</section>
 		</div>
 	</div>
-	</body>
+</body>
 </html>
