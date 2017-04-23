@@ -56,23 +56,23 @@
 		</nav>
 		<div class="flex-column">
 			<section class="frontpage">
-                <div id="backBox">
-                  <div id="text">
-                    Tilmeld Turnering <br>
-                    </div>
-                    <div id="theForm">   
-                        <form action="TurneringTilmeldt.html" method="post">
-                        <br><br><br>Holdnavn: <br>
-                        <input type="text" name="holdnavn" value="" required><br><br>
-                        Tlf nr. <br>
-                        <input type="text" name="tlf" value="+45" required><br><br>
-                        <input type="checkbox" name="over18" value="over18" id="over18" required>
-                        Bekræft at du er over 18<br>
-                        <input type="submit" value="Tilmeld">
-                        </form>
-                    </div>
-                </div>
-               </div>
+				<div id="backBox">
+				  <div id="text">
+				    Tilmeld Turnering <br>
+				    </div>
+				    <div id="theForm">   
+					<form action="TurneringTilmeldt.html" method="post">
+					<br><br><br>Holdnavn: <br>
+					<input type="text" name="holdnavn" value="" required><br><br>
+					Tlf nr. <br>
+					<input type="text" name="tlf" value="+45" required><br><br>
+					<input type="checkbox" name="over18" value="over18" id="over18" required>
+					Bekræft at du er over 18<br>
+					<input type="submit" value="Tilmeld">
+					</form>
+				    </div>
+				</div>
+			       </div>
 
 			</section>
 		</div>
