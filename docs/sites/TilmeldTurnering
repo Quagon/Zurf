@@ -1,0 +1,81 @@
+<html>
+<head>
+	<link rel="stylesheet" media="screen and (max-width: 400px)" href="css/narrow.css">
+	<link rel="stylesheet" media="screen and (min-width: 401px)" href="css/main.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+	#backBox{
+    width: 1000px;
+    height: 800px;
+    background-color: #ffffff;
+    border: 3px solid black;
+    opacity: 0.8;
+    margin-left: auto;
+    margin-top: -40%;
+    padding: 40px;
+}
+
+#text{
+    font-size: 80px;
+    text-align: center;
+}
+
+#theForm{
+    font-size: 60px;
+}
+
+#theForm input{
+    height:50px;
+    font-size:45px;
+}
+
+#theForm input[type=checkbox]{
+    transform: scale(4);
+    padding: 40px;
+}
+
+#theForm input[type=submit]{
+    float: right;
+    margin-top: -84px;
+    height:100px;
+}
+</style>
+</head>
+
+<body>
+	<a href="index"><img class="logo" src="/assets/img/17554757_10212418612040316_57139142_n.png"></img></a>
+	<div class="flex-container">
+		<nav class="nav">
+			<ul class="ulNavMenu">
+				<li><a class="navlink" href="/sites/praemier">Præmier</a></li>
+				<li><a class="navlink" href="/sites/regler">Regler</a></li>
+				<li><a class="navlink" href="/sites/kalender">Kalender</a></li>
+				<li><a class="navlink" href="/sites/vindere">Vindere</a></li>
+				<li><a class="navlink" href="/sites/turneringer">Turneringer</a></li>
+			</ul>
+		</nav>
+		<div class="flex-column">
+			<section class="frontpage">
+                <div id="backBox">
+                  <div id="text">
+                    Tilmeld Turnering <br>
+                    </div>
+                    <div id="theForm">   
+                        <form action="TurneringTilmeldt.html" method="post">
+                        <br><br><br>Holdnavn: <br>
+                        <input type="text" name="holdnavn" value="" required><br><br>
+                        Tlf nr. <br>
+                        <input type="text" name="tlf" value="+45" required><br><br>
+                        <input type="checkbox" name="over18" value="over18" id="over18" required>
+                        Bekræft at du er over 18<br>
+                        <input type="submit" value="Tilmeld">
+                        </form>
+                    </div>
+                </div>
+               </div>
+
+			</section>
+		</div>
+	</div>
+</body>
+</html>
