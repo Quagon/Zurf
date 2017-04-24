@@ -9,7 +9,7 @@ ul.ulNavMenu{
   	list-style-type: none;
 }
 
-li {
+li.navbar {
 	padding: auto;    
 	border: 1px #D46600;   
 	border-style: solid; 
