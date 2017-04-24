@@ -42,7 +42,7 @@ li.navbar {
 /*adds the flex element to column*/
 	-webkit-flex: 1;
 	flex: 1;
-	max-width: 80%;
+	max-width: 50%;
 	margin-left: 50px;
 }
 
