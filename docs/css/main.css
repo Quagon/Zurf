@@ -42,7 +42,7 @@ li.navbar {
 /*adds the flex element to column*/
 	-webkit-flex: 1;
 	flex: 1;
-	max-width: 50%;
+	max-width: 50%;   /* Det her svin fuckede alt mit op omg så hidsig man, 0 til 100 på 2sec omg */
 	margin-left: 50px;
 }
 
