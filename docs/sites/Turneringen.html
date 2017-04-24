@@ -40,6 +40,54 @@ li.tournamentNavLink{
 	margin: 0px;
 	padding: 0px;
 }
+main{
+    display:flex;
+    flex-direction:row;
+}
+	
+.round{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  width:15%;
+  list-style:none;
+  padding:0;
+}
+li.game1{
+	padding:3%;
+}
+li.game2{
+	padding:3%;
+}
+li.game-top{	
+}
+div.divwinner{
+	border: solid black 1px;
+	margin: 3%;
+}
+div.divloser{
+	border: solid red 1px;
+	margin: 3%;
+}
+li.game1.winner{
+    font-weight:bold;
+}
+li.game2.winner{
+    font-weight:bold;
+}
+
+.round .spacer{ flex-grow:1; }
+.round .spacer:first-child,
+.round .spacer:last-child{ flex-grow:0.5; }
+
+.round .game-spacer{
+  flex-grow: 1;
+}
+#tournament{
+  font-family:verdana;
+  font-size:small;
+  padding:2%;
+  line-height:1em;
 	
 </style>
 </head>
@@ -55,20 +103,78 @@ li.tournamentNavLink{
 				<li class="navbar"><a class="navlink" href="turneringer.html">Turneringer</a></li>
 			</ul>
 		</nav>
-		
 		<div class="flex-column">
 			<section>
-				
-				<div id="backBox">
-					<div id="backmenu">
-					<ul class="ulNavMenu">
-						<li class="tournamentNavLink"><a class="navlink" href="Puljer.html">Puljer</li>
-						<li class="tournamentNavLink"><strong>Turneringen</strong></li>
-					</ul>
-					</div>
-				</div>
+				<p><strong>Sort omrids = winner. Rød omrids = loser</strong></p>
+			</section>
+			
+	<section>
+		<h1>05/15-2017 PÅSKE TURNERING:  <strong>/*AGS = auto generated score*/</strong></h1>
+<main id="tournament">
+	<ul class="round">
+		<li class="spacer">&nbsp;</li>
+		
+		<div class="divwinner"><li class="game1 game-top winner">Holdnavn<span>AGS</span></li></div>
+		<div class="divspacer"><li class="game1 game-spacer">&nbsp;</li></div>
+		<div class="divloser"><li class="game1 game-bottom ">Holdnavn <span>AGS</span></li></div>
+
+		<li class="spacer">&nbsp;</li>
+		
+		<div class="divwinner"><li class="game1 game-top winner">Holdnavn <span>AGS</span></li></div>
+		<div class="divspacer"><li class="game1 game-spacer">&nbsp;</li></div>
+		<div class="divloser"><li class="game1 game-bottom ">Holdnavn <span>AGS</span></li></div>
+
+		<li class="spacer">&nbsp;</li>
+		
+		<div class="divwinner"><li class="game1 game-top winner">Holdnavn <span>AGS</span></li></div>
+		<div class="divspacer"><li class="game1 game-spacer">&nbsp;</li></div>
+		<div class="divloser"><li class="game1 game-bottom ">Holdnavn <span>AGS</span></li></div>
+
+		<li class="spacer">&nbsp;</li>
+		
+		<div class="divwinner"><li class="game1 game-top winner">Holdnavn <span>AGS</span></li></div>
+		<div class="divspacer"><li class="game1 game-spacer">&nbsp;</li></div>
+		<div class="divloser"><li class="game1 game-bottom ">Holdnavn <span>AGS</span></li></div>
+
+		<li class="spacer">&nbsp;</li>
+	</ul>
+	<ul class="round round-2">
+		<li class="spacer">&nbsp;</li>
+		
+		<div class="divwinner"><li class="game1 game-top winner">Holdnavn <span>AGS</span></li></div>
+		<div class="divspacer"><li class="game1 game-spacer">&nbsp;</li></div>
+		<div class="divloser"><li class="game1 game-bottom ">Holdnavn <span>AGS</span></li></div>
+
+		<li class="spacer">&nbsp;</li>
+		
+		<div class="divwinner"><li class="game1 game-top winner">Holdnavn <span>AGS</span></li></div>
+		<div class="divspacer"><li class="game1 game-spacer">&nbsp;</li></div>
+		<div class="divloser"><li class="game1 game-bottom ">Holdnavn <span>AGS</span></li></div>
+
+		<li class="spacer">&nbsp;</li>
+	</ul>
+	<ul class="round round-4">
+		<li class="spacer">&nbsp;</li>
+		
+		<div class="divwinner"><li class="game1 game-top finalist">Holdnavn <span>AGS</span></li></div>
+		<div class="divspacer"><li class="game1 game-spacer">&nbsp;</li></div>
+		<div class="divloser"><li class="game1 game-bottom ">Holdnavn <span>AGS</span></li></div>
+		
+		<li class="spacer">&nbsp;</li>
+	</ul>
+	
+	
+	<ul class="finalround">
+		<li class="spacer">&nbsp;</li>
+		
+		<div class="divfinal"><li class="finalgame"></div>
+		
+		
+	</ul>
+	
+</main>
 			</section>
 		</div>
 	</div>
-</body>
+	</body>
 </html>
