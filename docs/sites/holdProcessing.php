@@ -6,5 +6,5 @@ while($_POST['formSubmit'] == "Tilmeld")
     $hold[$i][1] = $_POST['holdnavn'];
     $hold[$i][2] = $_POST['tlf'];	
 }
-echo"$hold[$i]";
+echo"$hold[$i][1]";
 <?
