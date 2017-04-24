@@ -24,6 +24,17 @@
 </head>
 
 <body>
+<?php
+$hold[30][2];
+while($_POST['formSubmit'] == "Tilmeld")
+{
+    $i++;
+    $hold[$i][1] = $_GET['holdnavn'];
+    $hold[$i][2] = $_GET['tlf'];
+    header('Location: http://zurfbeerpong.dk/sites/turneringTilmeldt.html');
+}
+echo $hold[$i][1];
+?>
 	<a href="/index"><img class="logo" src="/assets/img/17554757_10212418612040316_57139142_n.png"></img></a>
 	<div class="flex-container">
 		<nav class="nav">
