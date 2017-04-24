@@ -66,8 +66,19 @@
 					<input type="text" name="tlf" value="+45" required><br><br>
 					<input type="checkbox" name="over18" value="over18" id="over18" required>
 					Bekræft at du er over 18<br>
-					<input type="submit" value="Tilmeld">
+					<input type="submit" name="formSubmit" value="Tilmeld">
 					</form>
+					    	<?php
+							while($_POST['formSubmit'] == "Tilmeld")
+							{
+								$i++;
+								$hold[30][2];
+								$hold[$i][1] = $_POST['holdnavn'];
+								$hold[$i][2] = $_POST['tlf'];								
+							}
+							echo"$hold[$i]";
+
+						<?
 				    </div>
 				</div>
 
