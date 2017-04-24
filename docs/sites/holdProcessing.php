@@ -3,8 +3,8 @@ $hold[30][2];
 while($_POST['formSubmit'] == "Tilmeld")
 {
     $i++;
-    $hold[$i][1] = $_POST['holdnavn'];
-    $hold[$i][2] = $_POST['tlf'];
+    $hold[$i][1] = $_GET['holdnavn'];
+    $hold[$i][2] = $_GET['tlf'];
 }
 echo $hold[$i][1];
 <?
