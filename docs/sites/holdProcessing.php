@@ -7,5 +7,5 @@ while($_POST['formSubmit'] == "Tilmeld")
     $hold[$i][1] = $_GET['holdnavn'];
     $hold[$i][2] = $_GET['tlf'];
 }
-// header('Location: http://zurfbeerpong.dk/sites/turneringTilmeldt.html');
+header('Location: http://zurfbeerpong.dk/sites/turneringTilmeldt.html');
 ?>
