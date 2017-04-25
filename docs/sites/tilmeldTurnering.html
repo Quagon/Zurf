@@ -60,7 +60,7 @@
 				    Tilmeld Turnering <br>
 				    </div>
 				    <div id="theForm">   
-					<form action="holdProcessing.php" method="post">
+					<form action="turneringTilmeldt.html" method="post">
 					<br><br><br>Holdnavn: <br>
 					<input type="text" name="holdnavn" value="" required><br><br>
 					Tlf nr. <br>
@@ -76,5 +76,16 @@
 			</section>
 		</div>
 	</div>
+<?php
+$hold[30][2];
+print_r($_GET);
+//while($_POST['formSubmit'] == "Tilmeld")
+//{
+    $i++;
+    $hold[$i][1] = htmlentities($_GET['holdnavn'];)
+    $hold[$i][2] = htmlentities($_GET['tlf'];)
+//}
+header('Location: http://zurfbeerpong.dk/sites/turneringTilmeldt.html');
+?>
 </body>
 </html>
