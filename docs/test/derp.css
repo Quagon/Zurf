@@ -47,6 +47,15 @@
 		display: none;
 		}
 		
+		.NavMenuDrp {
+		display: -webkit-box;
+  		display: -moz-box;
+  		display: -ms-flexbox;
+		display: -webkit-flex;
+		-webkit-align-self: flex-end;
+		-webkit-justify-content: flex-end;
+		}
+		
 		img.menu1 {
 		max-width: 50px;
 		height: auto;
