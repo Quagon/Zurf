@@ -20,7 +20,7 @@ ul.ulNavMenu{
 /*Defines from where the code is flex*/
 	display: -webkit-flex;
 	display: flex;
-	background-color: lightblue;
+	background-color: red;
 	justify-content: center;
 	margin: auto;
 	max-width: 80%;
