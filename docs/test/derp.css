@@ -36,8 +36,8 @@
   		display: -moz-box;
   		display: -ms-flexbox;
 		display: -webkit-flex;
-		-webkit-align-self: center;
-		padding-left: 15px;
+		align-self: center;
+		padding-right: auto;
 		width: 100px;
 		height: 100px;
 		}
