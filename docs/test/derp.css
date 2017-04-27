@@ -10,7 +10,7 @@ body{
   	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
-	background-color: orange;
+	background-color: white;
 	margin: 0 auto;
 	max-width: 80%;
 	flex-wrap: wrap;
@@ -26,7 +26,7 @@ body{
 	flex: 1;
 	margin: 0 auto;
 	-webkit-justify-content: space-around;
-	flex-wrap: wrap;
+	flex-flow: row wrap;
 	
 }
 
