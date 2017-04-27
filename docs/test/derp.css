@@ -92,21 +92,7 @@
 		background-color: white;
 		width: 330px;
 		padding: 10px;
-		}
-		.aside1{
-		order: 2;
-		flex: 1;
-		width: 350px;
-		border: 1px solid black;
-		}
-
-		.aside2{
-		order: 3;
-		flex: 1;
-		width: 350px;
-		border: 1px solid black;
-		}
-		
+		}		
 	}
 
 	@media screen and (min-width: 400px) {	
@@ -203,18 +189,5 @@
 		background-color: white;
 		width:80%;
 		padding: 10px;
-		}
-		.aside1{
-		order: 1;
-		flex: 1;
-		width:9%;
-		border: 1px solid black;
-		}
-
-		.aside2{
-		order: 3;
-		flex: 1;
-		width:9%
-		border: 1px solid black;
 		}	
 	}
