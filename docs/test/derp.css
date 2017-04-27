@@ -24,9 +24,9 @@
   		display: -ms-flexbox;
 		display: -webkit-flex;
 		display: flex;
-		flex: 1;
+		flex: auto;
 		margin: 0 auto;
-		flex-flow: row wrap;
+		flex-wrap: wrap;
 		-webkit-justify-content: center;
 		}
 
