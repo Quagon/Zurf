@@ -8,6 +8,7 @@ ul.ulNavMenu{
 	margin: 0;
   	list-style-type: none;
 	justify-content: flex-end;
+	flex: 1;
 }
 
 
@@ -40,7 +41,7 @@ img.logo {
 /* remove once website is flex*/
 	width: 150px;
 	height: 150px;
-	margin-left: 30px;
+	margin-left: 20%;
 }
 
 li.navbar {
