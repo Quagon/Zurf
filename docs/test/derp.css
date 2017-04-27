@@ -76,13 +76,14 @@ li.navbar a.active {
 }
 
 li.navbar a:hover:not(.active) {
-    	background-color: darken(deepskyblue, 3%);
+    	background-color: #00a8e0;
     	color: white;
 }
 
 .main {
 	order: 2;
 	flex: 2;
+	background-color: red;
 }
 .aside1{
 	order: 1;
