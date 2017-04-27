@@ -27,7 +27,6 @@ li.navbar {
 }
 
 .nav {
-	width: 200;
 	margin-top: 25px;
 	
 }
@@ -36,6 +35,7 @@ li.navbar {
 /*Defines from where the code is flex*/
 	display: -webkit-flex;
 	display: flex;
+	background-color: lightblue;
 }
 		
 .flex-column {
@@ -43,7 +43,7 @@ li.navbar {
 	-webkit-flex: 1;
 	flex: 1;
 	max-width: 80%;   /* Det her driller - ikke sikker, men da du ændrede with fra 50-80%, tror jeg det gjorde noget ved alle sider*/
-	margin-left: 50px;
+	margin: auto;
 }
 
 a.navlink {
@@ -51,7 +51,7 @@ a.navlink {
 	display:        flex;
   	flex-grow:      1;
   	flex-shrink:    1;
-	justify-content: center;
+	justify-content: flex-end;
 }
 
 img.logo { 
