@@ -14,6 +14,7 @@ body{
 	-webkit-justify-content: center;
 	margin: auto;
 	max-width: 80%;
+	height: 100%;
 	flex-wrap: wrap;
 	
 }
@@ -58,7 +59,7 @@ li.navbar {
 	display: inline-block;
 	font-family: Verdana;    
 	color: white;
-	font-size: 23px;
+	font-size: 20px;
 	text-align: center;
 }
 
