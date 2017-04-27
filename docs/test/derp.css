@@ -27,6 +27,7 @@ body{
 	flex: 1;
 	margin: 0 auto;
 	flex-flow: row wrap;
+	-webkit-justify-content: center;
 	
 }
 
