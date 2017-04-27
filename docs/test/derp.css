@@ -32,6 +32,7 @@ img.logo {
   	display: -ms-flexbox;
 	display: -webkit-flex;
 	-webkit-align-self: flex-start;
+	padding-left: 15px;
 	width: 150px;
 	height: 150px;
 }
@@ -51,6 +52,8 @@ ul.ulNavMenu{
 	flex: 1;
 	flex-wrap: wrap;
 	background-color: lightgray;
+	-webkit-align-self: flex-start;
+	-webkit-justify-content: flex-end;
 }
 
 li.navbar {
