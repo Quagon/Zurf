@@ -28,6 +28,8 @@ ul.ulNavMenu{
 	-webkit-justify-content: center;
 	margin: auto;
 	max-width: 80%;
+	flex-wrap: wrap;
+	
 }
 		
 .flex-column {
