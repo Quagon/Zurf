@@ -11,7 +11,7 @@ body{
 	display: -webkit-flex;
 	display: flex;
 	background-color: white;
-	margin: 0 auto;
+	margin: 0px auto;
 	max-width: 80%;
 	flex-wrap: wrap;
 	
@@ -95,13 +95,13 @@ li.navbar a:hover:not(.active) {
 .aside1{
 	order: 1;
 	flex: 1;
-	align-self: center;
+	-webkit-align-self: center;
 }
 
 .aside2{
 	order: 3;
 	flex: 1;
-	align-self: center;
+	-webkit-align-self: center;
 }
 
 
