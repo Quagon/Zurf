@@ -14,7 +14,6 @@
 		margin-top: 0px;
 		flex-wrap: wrap;
 		min-width: 30%;
-		flex: auto;
 		}
 		
 		.flex-column {
@@ -24,10 +23,9 @@
   		display: -ms-flexbox;
 		display: -webkit-flex;
 		display: flex;
-		flex: auto;
 		margin: 0 auto;
 		flex-wrap: wrap;
-		-webkit-justify-content: center;
+		width:100%;
 		}
 
 		img.logo { 
@@ -36,10 +34,10 @@
   		display: -moz-box;
   		display: -ms-flexbox;
 		display: -webkit-flex;
-		-webkit-align-self: flex-start;
+		-webkit-align-self: center;
 		padding-left: 15px;
-		width: 150px;
-		height: 150px;
+		width: 100px;
+		height: 100px;
 		}
 
 		.fill {
