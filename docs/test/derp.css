@@ -207,14 +207,14 @@
 		.aside1{
 		order: 1;
 		flex: 1;
-		width:10%;
+		width:9%;
 		border: 1px solid black;
 		}
 
 		.aside2{
 		order: 3;
 		flex: 1;
-		width:10%
+		width:9%
 		border: 1px solid black;
 		}	
 	}
