@@ -94,11 +94,13 @@ li.navbar a:hover:not(.active) {
 }
 .aside1{
 	order: 1;
+	flex: 1;
 	min-width:300px;
 }
 
 .aside2{
 	order: 3;
+	flex: 1;
 	min-width:300px;
 }
 
