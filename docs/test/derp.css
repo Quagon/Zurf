@@ -8,12 +8,13 @@ ul.ulNavMenu{
 	padding: 0;    
 	margin: 0;
   	list-style-type: none;
-	justify-content: flex-end;
 }
 
 
 .nav {
+	display: -webkit-flex;
 	margin-top: 25px;
+	justify-content: flex-end;
 	
 }
 
