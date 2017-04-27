@@ -38,7 +38,7 @@ ul.ulNavMenu{
 	padding: 0;    
 	margin: 0;
   	list-style-type: none;
-	justify-content: flex-end;
+	-webkit-justify-content: flex-end;
 	flex: 1;
 	background-color: lightgray;
 }
@@ -49,7 +49,6 @@ li.navbar {
 	color: white;
 	font-size: 23px;
 	text-align: center;
-	margin-right: 0px;
 }
 
 li.navbar a{
