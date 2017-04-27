@@ -2,20 +2,6 @@ body{
     background:url(/assets/img/lightblue.png); /* ændre til variabel der kan ændres fra admin page */
     background-repeat: repeat;
 }
- 
-ul.ulNavMenu{
-	padding: 0;    
-	margin: 0;
-  	list-style-type: none;
-	justify-content: flex-end;
-	flex: 1;
-}
-
-
-.nav {
-	margin-right: 0px;
-	
-}
 
 .flex-container {
 /*Defines from where the code is flex*/
@@ -43,6 +29,14 @@ img.logo {
 /* remove once website is flex*/
 	width: 150px;
 	height: 150px;
+}
+
+ul.ulNavMenu{
+	padding: 0;    
+	margin: 0;
+  	list-style-type: none;
+	justify-content: flex-end;
+	flex: 1;
 }
 
 li.navbar {
