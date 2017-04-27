@@ -10,7 +10,7 @@ body{
   	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
-	background-color: white;
+	background-color: orange;
 	margin: 0 auto;
 	max-width: 80%;
 	flex-wrap: wrap;
@@ -19,9 +19,15 @@ body{
 		
 .flex-column {
 /*adds the flex element to column*/
-	-webkit-flex: 1;
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+	display: -webkit-flex;
 	flex: 1;
 	margin: 0 auto;
+	-webkit-justify-content: space-around;
+	flex-wrap: nowrap;
+	
 }
 
 img.logo { 
@@ -81,12 +87,12 @@ li.navbar a:hover:not(.active) {
 }
 
 .main {
-	order: 2;
+	order: 1;
 	flex: 2;
 	background-color: red;
 }
 .aside1{
-	order: 1;
+	order: 2;
 }
 
 .aside2{
