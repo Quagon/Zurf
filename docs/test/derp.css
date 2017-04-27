@@ -22,6 +22,7 @@ ul.ulNavMenu{
 	display: flex;
 	background-color: lightblue;
 	justify-content: center;
+	margin: auto;
 	max-width: 80%;
 }
 		
@@ -45,7 +46,6 @@ li.navbar {
 	font-size: 23px;
 	text-align: center;
 	background-color: lightgray;
-	display: inline;
 }
 
 li.navbar a{
