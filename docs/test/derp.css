@@ -26,7 +26,7 @@ body{
 	flex: 1;
 	margin: 0 auto;
 	-webkit-justify-content: space-around;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
 	
 }
 
@@ -87,16 +87,19 @@ li.navbar a:hover:not(.active) {
 }
 
 .main {
-	order: 1;
+	order: 2;
 	flex: 2;
 	background-color: red;
+	min-width: 500px;
 }
 .aside1{
-	order: 2;
+	order: 1;
+	min-width:300px;
 }
 
 .aside2{
 	order: 3;
+	min-width:300px;
 }
 
 
