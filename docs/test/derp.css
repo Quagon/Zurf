@@ -1,107 +1,219 @@
-body{
-    background-color: orange;
-}
-
-.flex-container {
-/*Defines from where the code is flex*/
-	display: -webkit-box;
-  	display: -moz-box;
-  	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	background-color: white;
-	margin: 0px auto;
-	max-width: 80%;
-	flex-wrap: wrap;
-	
-}
+	@media screen and (max-width: 400px) {
+		body{
+   		background-color: orange;
+		}
+		.flex-container {
+		/*Defines from where the code is flex*/
+		display: -webkit-box;
+  		display: -moz-box;
+  		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		background-color: white;
+		margin: 0px auto;
+		margin-top: 0px;
+		flex-wrap: wrap;
+		min-width: 30%;
+		flex: auto;
+		}
 		
-.flex-column {
-/*adds the flex element to column*/
-	display: -webkit-box;
-  	display: -moz-box;
-  	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	flex: 1;
-	margin: 0 auto;
-	flex-flow: row wrap;
-	-webkit-justify-content: center;
-	
-}
+		.flex-column {
+		/*adds the flex element to column*/
+		display: -webkit-box;
+  		display: -moz-box;
+  		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		flex: 1;
+		margin: 0 auto;
+		flex-flow: row wrap;
+		-webkit-justify-content: center;
+		}
 
-img.logo { 
-/* remove once website is flex*/
-	display: -webkit-box;
-  	display: -moz-box;
-  	display: -ms-flexbox;
-	display: -webkit-flex;
-	-webkit-align-self: flex-start;
-	padding-left: 15px;
-	width: 150px;
-	height: 150px;
-}
+		img.logo { 
+		/* remove once website is flex*/
+		display: -webkit-box;
+  		display: -moz-box;
+  		display: -ms-flexbox;
+		display: -webkit-flex;
+		-webkit-align-self: flex-start;
+		padding-left: 15px;
+		width: 150px;
+		height: 150px;
+		}
 
-.fill {
-	width: 100%;
-}
+		.fill {
+		width: 100%;
+		}
 
-ul.ulNavMenu{
-	display: -webkit-box;
-  	display: -moz-box;
-  	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	padding: 0;    
-	margin: 0;
-  	list-style-type: none;
-	flex: 1;
-	flex-wrap: wrap;
-	background-color: deepskyblue;
-	-webkit-justify-content: flex-end;
-}
+		ul.ulNavMenu{
+		display: -webkit-box;
+  		display: -moz-box;
+  		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		padding: 0;    
+		margin: 0;
+  		list-style-type: none;
+		flex: 1;
+		flex-wrap: wrap;
+		background-color: deepskyblue;
+		-webkit-justify-content: flex-end;
+		}
 
-li.navbar {
-	display: inline-block;
-	font-family: Verdana;    
-	color: white;
-	font-size: 20px;
-	text-align: center;
-}
+		li.navbar {
+		display: inline-block;
+		font-family: Verdana;    
+		color: white;
+		font-size: 20px;
+		text-align: center;
+		}
 
-li.navbar a{
-	display: block;
-	color: white;
-	padding: 10px;
-	text-decoration: none;
-}
+		li.navbar a{
+		display: block;
+		color: white;
+		padding: 10px;
+		text-decoration: none;
+		}
 
-li.navbar a.active {
-	background-color: #0099cc;
-    	color: white;
-}
+		li.navbar a.active {
+		background-color: #0099cc;
+    		color: white;
+		}	
 
-li.navbar a:hover:not(.active) {
-    	background-color: #00a8e0;
-    	color: white;
-}
+		li.navbar a:hover:not(.active) {
+  	  	background-color: #00a8e0;
+  	  	color: white;
+		}
 
-.main {
-	order: 2;
-	flex: 2;
-	background-color: white;
-}
-.aside1{
-	order: 1;
-	flex: 1;
-	min-width: 200px;
-}
+		.main {
+		order: 1;
+		flex: 2;
+		background-color: white;
+		width: 60%;
+		}
+		.aside1{
+		order: 2;
+		flex: 1;
+		min-width: 200px;
+		}
 
-.aside2{
-	order: 3;
-	flex: 1;
-	min-width:200px;
-}
+		.aside2{
+		order: 3;
+		flex: 1;
+		min-width:200px;
+		}
+		
+	}
+
+	@media screen and (min-width: 400px) {	
+		body{
+   		background-color: orange;
+		}
+
+		.flex-container {
+		/*Defines from where the code is flex*/
+		display: -webkit-box;
+  		display: -moz-box;
+  		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		background-color: white;
+		margin: 0px auto;
+		margin-top: 0px;
+		max-width: 80%;
+		flex-wrap: wrap;
+		}
+		
+		.flex-column {
+		/*adds the flex element to column*/
+		display: -webkit-box;
+  		display: -moz-box;
+  		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		flex: 1;
+		margin: 0 auto;
+		flex-flow: row wrap;
+		-webkit-justify-content: center;
+		}
+
+		img.logo { 
+		/* remove once website is flex*/
+		display: -webkit-box;
+  		display: -moz-box;
+  		display: -ms-flexbox;
+		display: -webkit-flex;
+		-webkit-align-self: flex-start;
+		padding-left: 15px;
+		width: 150px;
+		height: 150px;
+		}
+
+		.fill {
+		width: 100%;
+		}
+
+		ul.ulNavMenu{
+		display: -webkit-box;
+  		display: -moz-box;
+  		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		padding: 0;    
+		margin: 0;
+  		list-style-type: none;
+		flex: 1;
+		flex-wrap: wrap;
+		background-color: deepskyblue;
+		-webkit-justify-content: flex-end;
+		}
+
+		li.navbar {
+		display: inline-block;
+		font-family: Verdana;    
+		color: white;
+		font-size: 20px;
+		text-align: center;
+		}
+
+		li.navbar a{
+		display: block;
+		color: white;
+		padding: 10px;
+		text-decoration: none;
+		}
+
+		li.navbar a.active {
+		background-color: #0099cc;
+    		color: white;
+		}	
+
+		li.navbar a:hover:not(.active) {
+  	  	background-color: #00a8e0;
+  	  	color: white;
+		}
+
+		.main {
+		order: 2;
+		flex: 2;
+		background-color: white;
+		}
+		.aside1{
+		order: 1;
+		flex: 1;
+		min-width: 200px;
+		}
+
+		.aside2{
+		order: 3;
+		flex: 1;
+		min-width:200px;
+		}	
+	}
+
+
+
 
 
 
