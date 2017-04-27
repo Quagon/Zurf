@@ -32,14 +32,18 @@
 
 		img.logo { 
 		/* remove once website is flex*/
-		display: -webkit-box;
-  		display: -moz-box;
-  		display: -ms-flexbox;
-		display: -webkit-flex;
-		align-self: center;
-		padding-right: auto;
+		margin: auto;
 		width: 100px;
 		height: 100px;
+		order: 2;
+		}
+		
+		a {
+		/* This flexbox code stretches the link's clickable area to fit its parent block. */
+		display:        flex;
+ 		flex-grow:      1;
+  		flex-shrink:    1;
+  		justify-content: center;
 		}
 
 		.fill {
@@ -48,6 +52,8 @@
 		}
 		
 		.NavMenuDrp {
+		display: flex;
+		order: 1;
 		position: relative;
 		width: 100%;
 		}
