@@ -44,8 +44,11 @@
 
 		.fill {
 		width: 100%;
+		display: none;
 		}
-
+		
+		
+		
 		ul.ulNavMenu{
 		display: -webkit-box;
   		display: -moz-box;
@@ -84,10 +87,6 @@
 		li.navbar a:hover:not(.active) {
   	  	background-color: #00a8e0;
   	  	color: white;
-		}
-		
-		li.navnbar a:not(.active){
-		display: none;	
 		}
 
 		.main {
