@@ -95,12 +95,14 @@ li.navbar a:hover:not(.active) {
 	order: 1;
 	flex: 1;
 	align-self: center;
+	margin: auto;
 }
 
 .aside2{
 	order: 3;
 	flex: 1;
 	align-self: center;
+	margin: auto;
 }
 
 
