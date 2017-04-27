@@ -90,18 +90,15 @@ li.navbar a:hover:not(.active) {
 	order: 2;
 	flex: 2;
 	background-color: red;
-	min-width: 500px;
 }
 .aside1{
 	order: 1;
 	flex: 1;
-	min-width:300px;
 }
 
 .aside2{
 	order: 3;
 	flex: 1;
-	min-width:300px;
 }
 
 
