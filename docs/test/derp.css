@@ -23,9 +23,11 @@
   		display: -ms-flexbox;
 		display: -webkit-flex;
 		display: flex;
+		flex: 1;
 		margin: 0 auto;
 		flex-wrap: wrap;
 		width:100%;
+		-webkit-justify-content:center;
 		}
 
 		img.logo { 
@@ -199,20 +201,20 @@
 		order: 2;
 		flex: 2;
 		background-color: white;
-		width:60%;
+		width:80%;
 		padding: 10px;
 		}
 		.aside1{
 		order: 1;
 		flex: 1;
-		min-width: 200px;
+		width:10%;
 		border: 1px solid black;
 		}
 
 		.aside2{
 		order: 3;
 		flex: 1;
-		min-width:200px;
+		width:10%
 		border: 1px solid black;
 		}	
 	}
