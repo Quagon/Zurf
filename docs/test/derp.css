@@ -31,6 +31,9 @@ img.logo {
 	height: 150px;
 }
 
+.fill {
+	width: 100%	
+}
 ul.ulNavMenu{
 	padding: 0;    
 	margin: 0;
