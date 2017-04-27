@@ -34,8 +34,8 @@ ul.ulNavMenu{
 		
 .flex-column {
 /*adds the flex element to column*/
-	-webkit-flex: 2;
-	flex: 2;
+	-webkit-flex: 1;
+	flex: 1;
 	margin: auto;
 }
 
