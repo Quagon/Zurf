@@ -52,8 +52,8 @@
   		display: -moz-box;
   		display: -ms-flexbox;
 		display: -webkit-flex;
-		-webkit-align-self: flex-end;
-		-webkit-justify-content: flex-end;
+		flex: 1;
+		margin-right: 0px;
 		}
 		
 		img.menu1 {
