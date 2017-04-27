@@ -48,7 +48,6 @@ ul.ulNavMenu{
 	padding: 0;    
 	margin: 0;
   	list-style-type: none;
-	-webkit-justify-content: flex-end;
 	flex: 1;
 	flex-wrap: wrap;
 	background-color: lightgray;
