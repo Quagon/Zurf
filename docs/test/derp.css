@@ -11,7 +11,7 @@ body{
 	display: -webkit-flex;
 	display: flex;
 	background-color: lightblue;
-	margin: auto;
+	margin: 0 auto;
 	max-width: 80%;
 	height: 100%;
 	flex-wrap: wrap;
@@ -22,7 +22,7 @@ body{
 /*adds the flex element to column*/
 	-webkit-flex: 2;
 	flex: 2;
-	margin: auto;
+	margin: 0 auto;
 }
 
 img.logo { 
@@ -38,7 +38,8 @@ img.logo {
 }
 
 .fill {
-	width: 100%;	
+	width: 100%;
+	margin: 0 auto;
 }
 ul.ulNavMenu{
 	display: -webkit-box;
@@ -52,7 +53,6 @@ ul.ulNavMenu{
 	flex: 1;
 	flex-wrap: wrap;
 	background-color: lightgray;
-	-webkit-align-self: flex-start;
 	-webkit-justify-content: flex-end;
 }
 
