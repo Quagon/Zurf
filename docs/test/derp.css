@@ -45,6 +45,7 @@ li.navbar {
 	font-size: 23px;
 	text-align: center;
 	background-color: lightgray;
+	display: inline;
 }
 
 li.navbar a{
