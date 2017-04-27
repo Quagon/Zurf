@@ -88,7 +88,8 @@
 		order: 1;
 		flex: 2;
 		background-color: white;
-		width: 350px;
+		width: 330px;
+		padding: 10px;
 		}
 		.aside1{
 		order: 2;
@@ -199,6 +200,7 @@
 		flex: 2;
 		background-color: white;
 		width:60%;
+		padding: 10px;
 		}
 		.aside1{
 		order: 1;
