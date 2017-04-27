@@ -32,7 +32,7 @@ img.logo {
 }
 
 .fill {
-	width: 100%	
+	width: 100%;	
 }
 ul.ulNavMenu{
 	padding: 0;    
@@ -40,7 +40,6 @@ ul.ulNavMenu{
   	list-style-type: none;
 	justify-content: flex-end;
 	flex: 1;
-	width: 100%;
 }
 
 li.navbar {
