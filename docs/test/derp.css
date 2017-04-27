@@ -90,18 +90,16 @@
 		order: 1;
 		flex: 2;
 		background-color: white;
-		width: 60%;
+		width: 100%;
 		}
 		.aside1{
 		order: 2;
 		flex: 1;
-		min-width: 200px;
 		}
 
 		.aside2{
 		order: 3;
 		flex: 1;
-		min-width:200px;
 		}
 		
 	}
