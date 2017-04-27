@@ -1,6 +1,5 @@
 body{
-    background:url(/assets/img/lightblue.png); /* ændre til variabel der kan ændres fra admin page */
-    background-repeat: repeat;
+    background-color: orange;
 }
 
 .flex-container {
