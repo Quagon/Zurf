@@ -20,7 +20,7 @@ body{
 .flex-column {
 /*adds the flex element to column*/
 	-webkit-flex: 1;
-	flex: 2;
+	flex: 1;
 	margin: 0 auto;
 }
 
@@ -71,16 +71,26 @@ li.navbar a{
 }
 
 li.navbar a.active {
-	background: darken(deepskyblue, 5%);
+	background-color: darken(deepskyblue, 5%);
     	color: white;
 }
 
 li.navbar a:hover:not(.active) {
-    	background: darken(deepskyblue, 3%)
+    	background-color: darken(deepskyblue, 3%)
     	color: white;
 }
 
-.aside1
+.main {
+	order: 2;
+	flex: 2;
+}
+.aside1{
+	order: 1;
+}
+
+.aside2{
+	order: 3;
+}
 
 
 
