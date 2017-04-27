@@ -27,7 +27,11 @@ body{
 
 img.logo { 
 /* remove once website is flex*/
-	align-self: flex-start;
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+	display: -webkit-flex;
+	-webkit-align-self: flex-start;
 	width: 150px;
 	height: 150px;
 }
@@ -46,6 +50,7 @@ ul.ulNavMenu{
   	list-style-type: none;
 	-webkit-justify-content: flex-end;
 	flex: 1;
+	flex-wrap: wrap;
 	background-color: lightgray;
 }
 
