@@ -1,0 +1,101 @@
+body{
+    background:url(/assets/img/lightblue.png); /* ændre til variabel der kan ændres fra admin page */
+    background-repeat: repeat;
+}
+ 
+ul.ulNavMenu{
+	padding: 0;    
+	margin: 0;
+  	list-style-type: none;
+}
+
+li.navbar {
+	padding: auto;    
+	border: 1px #D46600;   
+	border-style: solid; 
+	background: orange; /* For browsers that do not support gradients */   
+	background: -webkit-linear-gradient(#FF9531, #FF7C00); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#FF9531, #FF7C00); /* For Opera 11.1 to 12.0 */ 
+	background: -moz-linear-gradient(#FF9531, #FF7C00); /* For Firefox 3.6 to 15 */ 
+	background: linear-gradient(#FF9531, #FF7C00); /* Standard syntax */
+	font-family: Verdana;    
+	color: white;
+	font-size: 23px;
+	text-align: center;
+	margin: 5px;
+	list-style-type: none;
+}
+
+.nav {
+	width: 200;
+	margin-top: 25px;
+	
+}
+
+.flex-container {
+/*Defines from where the code is flex*/
+	display: -webkit-flex;
+	display: flex;
+}
+		
+.flex-column {
+/*adds the flex element to column*/
+	-webkit-flex: 1;
+	flex: 1;
+	max-width: 80%;   /* Det her driller - ikke sikker, men da du ændrede with fra 50-80%, tror jeg det gjorde noget ved alle sider*/
+	margin-left: 50px;
+}
+
+a.navlink {
+/* This flexbox code stretches the link's clickable area to fit its parent block. */
+	display:        flex;
+  	flex-grow:      1;
+  	flex-shrink:    1;
+	justify-content: center;
+}
+
+img.logo { 
+/* remove once website is flex*/
+	width: 150px;
+	height: 150px;
+	margin-left: 30px;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+a:active {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+
+/*
+@media screen and (max-width:1919px){
+    #container{
+        width:100%;
+    }
+    #registrationButton{
+        width:100%;
+        height:100%;
+    }
+    img{
+        width: 30%;
+        height: 30%;
+    }
+}
+*/
