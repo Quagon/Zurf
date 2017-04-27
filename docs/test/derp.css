@@ -4,27 +4,13 @@ body{
 }
  
 ul.ulNavMenu{
+	display: -webkit-flex;
 	padding: 0;    
 	margin: 0;
   	list-style-type: none;
+	justify-content: flex-end;
 }
 
-li.navbar {
-	padding: auto;    
-	border: 1px #D46600;   
-	border-style: solid; 
-	background: orange; /* For browsers that do not support gradients */   
-	background: -webkit-linear-gradient(#FF9531, #FF7C00); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(#FF9531, #FF7C00); /* For Opera 11.1 to 12.0 */ 
-	background: -moz-linear-gradient(#FF9531, #FF7C00); /* For Firefox 3.6 to 15 */ 
-	background: linear-gradient(#FF9531, #FF7C00); /* Standard syntax */
-	font-family: Verdana;    
-	color: white;
-	font-size: 23px;
-	text-align: center;
-	margin: 5px;
-	list-style-type: none;
-}
 
 .nav {
 	margin-top: 25px;
@@ -36,6 +22,7 @@ li.navbar {
 	display: -webkit-flex;
 	display: flex;
 	background-color: lightblue;
+	justify-content: center;
 }
 		
 .flex-column {
@@ -46,14 +33,6 @@ li.navbar {
 	margin: auto;
 }
 
-a.navlink {
-/* This flexbox code stretches the link's clickable area to fit its parent block. */
-	display:        flex;
-  	flex-grow:      1;
-  	flex-shrink:    1;
-	justify-content: flex-end;
-}
-
 img.logo { 
 /* remove once website is flex*/
 	width: 150px;
@@ -61,27 +40,34 @@ img.logo {
 	margin-left: 30px;
 }
 
-a:link {
-    text-decoration: none;
-    color: white;
+li.navbar {
+	font-family: Verdana;    
+	color: white;
+	font-size: 23px;
+	text-align: center;
+	background-color: lightgray;
 }
 
-a:visited {
-    text-decoration: none;
-    color: white;
+li.navbar a{
+	display: block;
+	color: white;
+	padding: 10px;
+	text-decoration: none;
 }
 
-a:hover {
-    text-decoration: none;
-    font-weight: bold;
-    color: white;
+li.navbar a.active {
+    	font-weight: bold;
+	background-color: darkgray;
+    	color: white;
 }
 
-a:active {
-    text-decoration: none;
-    font-weight: bold;
-    color: white;
+li.navbar a:hover:not(.active) {
+    	background-color: gray;
+    	color: black;
 }
+
+
+
 
 
 /*
