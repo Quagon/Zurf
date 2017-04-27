@@ -43,6 +43,7 @@ ul.ulNavMenu{
 }
 
 li.navbar {
+	display: inline-block;
 	font-family: Verdana;    
 	color: white;
 	font-size: 23px;
