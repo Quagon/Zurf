@@ -71,12 +71,12 @@ li.navbar a{
 }
 
 li.navbar a.active {
-	background-color: darken(deepskyblue, 5%);
+	background-color: #0099cc;
     	color: white;
 }
 
 li.navbar a:hover:not(.active) {
-    	background-color: darken(deepskyblue, 3%)
+    	background-color: darken(deepskyblue, 3%);
     	color: white;
 }
 
