@@ -9,7 +9,6 @@
   		display: -ms-flexbox;
 		display: -webkit-flex;
 		display: flex;
-		background-color: white;
 		margin: 0px auto;
 		margin-top: 0px;
 		flex-wrap: wrap;
@@ -135,7 +134,7 @@
 		.main {
 		order: 1;
 		flex: 2;
-		background-color: white;
+		color: white;
 		width: 330px;
 		padding: 10px;
 		}		
