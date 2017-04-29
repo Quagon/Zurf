@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+<head>
+    <title>not good bro</title>
+    <link rel="stylesheet" type="text/css" href="/Login/login_style.css">
+
+<style>
+    
+    /* style kode */
+#login_box{
+    width: 70%;
+    height: 80%;
+    border: solid black 1px;
+    text-align:center;
+    background-color: #F0F8FF;
+    margin: 0 auto;
+}
+
+input[type=text], input[type=password]{
+    width: 30%;
+    padding: 0.5%;
+    margin: 0;
+    border: solid black 1px;
+}
+
+button {
+    width:29.5%;
+    color: white;
+    padding: 1%;
+    margin: 1%;
+    border: none;
+    font-size: 120%;
+    font-family: verdana;
+}
+button:hover{
+    opacity:0.7;
+}
+img.avatar{
+    width:15%;
+    border-radius: 25%;
+}
+.imgcontainer{
+    text-align:center;
+    margin:2% 0% 1% 0%;
+}
+#btn{
+    background-color: #00FFFF;
+}
+#cancel{
+    background-color: red;
+}
+.bottomcontainer{
+    background-color:#E6E6FA;
+}
+    
+    /* Pop-up kode */
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.popup {
+  margin: 15.5% auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Verdana;
+  text-align: center;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+}
+
+    
+</style>
+</head>
+
+<body>
+    <!-- Kode fra login.php-->
+    <form action="/Login/login_processing.php" method="POST">
+        <div class="imgcontainer">
+            <img src="/Login/key.jpg" alt="Avatar" class="avatar">
+            
+        </div>
+        <div id="login_box">
+            <p>
+                <label><strong>Brugernavn: </strong></label>
+                </br>
+                <input type="text" placeholder="brugernavn" id="bruger" name="bruger" required />
+            </p>
+            <p>
+                <label><strong>Password: </strong></label>
+                </br>
+                <input type="password" id="pass" placeholder="password" name="pass" required />
+            </p>
+            <p>
+                <button type="submit" id="btn" value="Login"><strong> Login </strong></button>
+            </p>
+    <div class="bottomcontainer">
+        <button type="button" id="cancel"> Cancel</button>
+    </div>
+     </div>
+     </form>
+
+    <!--Kode til pop-up (kode eller brugernavn stavet forkert)-->
+    <div id="popup1" class="overlay">
+	<div class="popup">
+		<h2>Adgang nægtet:</h2>
+		<a class="close" href="/Login/login.php">&times;</a>
+		<div class="content">
+			Brugernavn og/eller adgangskode er ugyldigt.
+		</div>
+	</div>
+</div>
+    
+</body>
+</html>
