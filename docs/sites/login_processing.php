@@ -11,7 +11,7 @@
     $password = mysql_real_escape_string($password);
     
     //Forbindelse til server og valg af database (login)
-     $con=mysql_connect('localhost','root','') or die ("Fejl: " . mysql_error($con));
+     $con=mysql_connect('localhost','root','') or die ("Fejl: " . mysql_error($con)); //Hvordan forbinder vi den til en database på github?
      mysql_select_db('login',$con) or die( mysql_error());
     
     //Spørg databasen for bruger
