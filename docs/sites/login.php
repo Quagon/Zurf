@@ -75,7 +75,7 @@ img.avatar{
                 <button type="submit" id="btn" value="Login"><strong> Login </strong></button>
             </p>
     <div class="bottomcontainer">
-        <button type="button" id="cancel"> Cancel</button>
+        <a href="//zurfbeerpong.dk/index.html"><button type="button" id="cancel"> Cancel </button></a>
     </div>
      </div>
      </form>
