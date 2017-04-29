@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Login page</title>
-    <link rel="stylesheet" type="text/css" href="login_style.css">
+    <link rel="stylesheet" type="text/css" href="login_style.css"> <!-- Betyder intet lige pt. -->
 
 <style>
     #login_box{
@@ -55,9 +55,9 @@ img.avatar{
 <body>
     
     
-     <form action="login_processing.php" method="POST">
+     <form action="/sites/login_processing.php" method="POST">
         <div class="imgcontainer">
-            <img src="key.jpg" alt="Avatar" class="avatar">
+            <img src="/assets/img/key.jpg" alt="Avatar" class="avatar">
             
         </div>
         <div id="login_box">
