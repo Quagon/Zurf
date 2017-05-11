@@ -248,13 +248,12 @@
 		display: flex;
 		height: auto;
 		width: 100%;
-		position: absolute;
-		top:0;
 		}
 
 		.footer{
+		-webkit-align-items: flex-end;
+		align-items: flex-end;
 		margin:auto;
-		margin-right: 5px;
 		}
 		
 		a.login{
