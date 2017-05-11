@@ -247,14 +247,14 @@
 		display: -webkit-flex;
 		display: flex;
 		height: auto;
-		width: 98%;
+		width: 100%;
 		}
 
 		.footer{
 		margin:auto;
 		margin-top:50px;
- 		color: white;
 		}
+		
 		a.login{
 		color: green;
 		font-weight: bold;
