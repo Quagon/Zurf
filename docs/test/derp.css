@@ -238,5 +238,25 @@
 		background-color: white;
 		width:80%;
 		padding: 10px;
-		}	
+		}
+		
+		.flex_footer{
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		height: auto;
+		width: 98%;
+		}
+
+		.footer{
+		margin:auto;
+		margin-top:50px;
+ 		color: white;
+		}
+		a.login{
+		color: green;
+		font-weight: bold;
+		}
 	}
